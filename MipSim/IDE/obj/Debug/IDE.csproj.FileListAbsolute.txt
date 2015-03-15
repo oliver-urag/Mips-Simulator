@@ -1,0 +1,590 @@
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\bin\Debug\IDE.exe.config
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\bin\Debug\IDE.exe
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\bin\Debug\IDE.pdb
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\LexItems.baml
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\MainWindow.baml
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\App.g.cs
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE.g.resources
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE.exe
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\obj\Debug\IDE.pdb
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\bin\Debug\CompileLib.Common.dll
+D:\School\XPROGLAN\EazyIDE\EazyIDE\IDE\bin\Debug\CompileLib.Common.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-13-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-18-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 10-20-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-12-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-14-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-17-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-19-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-22-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 11-26-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY.htm
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\themedata.thmx
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\HelpWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\HelpWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\colorschememapping.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\filelist.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image001.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image002.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image003.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image004.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image005.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image006.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image007.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image008.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image009.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image010.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image011.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image012.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image013.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image014.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0001.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0002.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\AboutWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-7-2014\EazyIDE\IDE\obj\Debug\AboutWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY.htm
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\themedata.thmx
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\colorschememapping.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\filelist.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image001.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image002.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image003.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image004.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image005.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image006.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image007.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image008.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image009.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image010.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image011.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image012.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image013.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image014.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0022.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0024.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0023.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0025.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\AboutWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\HelpWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\AboutWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\HelpWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY.htm
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\themedata.thmx
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\colorschememapping.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\filelist.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image001.png
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image002.jpg
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image003.png
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image004.jpg
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image005.png
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image006.jpg
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image007.png
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image008.jpg
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image009.png
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image010.jpg
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image011.png
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image012.jpg
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image013.png
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image014.jpg
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0022.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0024.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0023.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0025.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\AboutWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\HelpWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\AboutWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\HelpWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\oliver.urag\Desktop\XPROGLAN 12-8-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY.htm
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\themedata.thmx
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\colorschememapping.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\filelist.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image001.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image002.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image003.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image004.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image005.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image006.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image007.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image008.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image009.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image010.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image011.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image012.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image013.png
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image014.jpg
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0022.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0024.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0023.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0025.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\AboutWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\HelpWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\LexItems.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\MainWindow.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\ParseTree.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.baml
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\AboutWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\HelpWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\LexItems.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\ParseTree.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\TabCodesItem.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\App.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver Admin\Desktop\XPROGLAN 12-10-2014\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\IDE.exe.config
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.exe
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.pdb
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\AboutWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\HelpWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\MainWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\AboutWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\HelpWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\App.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.g.resources
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.csproj.GenerateResource.Cache
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY.htm
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\themedata.thmx
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\colorschememapping.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\filelist.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image001.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image002.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image003.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image004.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image005.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image006.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image007.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image008.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image009.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image010.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image011.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image012.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image013.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image014.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0022.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0024.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0023.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0025.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\IDE.exe
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\IDE.pdb
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\CompileLib.Base.dll
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.dll
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\CompileLib.Base.pdb
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Antlr4.Runtime.xml

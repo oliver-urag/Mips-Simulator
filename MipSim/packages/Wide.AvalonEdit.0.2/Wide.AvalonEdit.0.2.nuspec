@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Wide.AvalonEdit</id>
+    <version>0.2</version>
+    <title>Latest version of AvalonEdit</title>
+    <authors>Chandramouleswaran</authors>
+    <owners>Chandramouleswaran</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the latest version of AvalonEdit that Wide uses.</description>
+  </metadata>
+</package>

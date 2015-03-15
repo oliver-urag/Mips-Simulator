@@ -1,0 +1,70 @@
+﻿<Window x:Class="MipSim.IDE.SimulationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MIPS Simulator - Run" Background="AliceBlue" Width="1000" Height="600">
+    
+    
+    <Grid Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="28px" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="28px" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Code" FontWeight="Bold" VerticalAlignment="Center"/>
+        <Label Grid.Row="0" Grid.Column="4" Content="Pipeline Map" FontWeight="Bold" VerticalAlignment="Center"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Registers" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Label Grid.Row="2" Grid.Column="2" Content="Memory" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Label Grid.Row="2" Grid.Column="4" Content="Clock Cycle Log" VerticalAlignment="Center" FontWeight="Bold"/>        
+        <DataGrid Name="InstGrid" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" AutoGenerateColumns="False" CanUserReorderColumns="False" 
+                          CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" ColumnHeaderHeight="30" HeadersVisibility="Column" IsReadOnly="True" SelectionMode="Single" SelectionUnit="Cell">
+                    <DataGrid.VerticalGridLinesBrush>
+                        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+                    </DataGrid.VerticalGridLinesBrush>
+                    <DataGrid.HorizontalGridLinesBrush>
+                        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+                    </DataGrid.HorizontalGridLinesBrush>
+                    <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path= AddressHex}" ClipboardContentBinding="{x:Null}" Header="Address" Width="55" MinWidth="55"/>
+                <DataGridTextColumn Binding="{Binding Path= Label}" ClipboardContentBinding="{x:Null}" Header="Label" Width="70" MinWidth="70"/>
+                <DataGridTextColumn Binding="{Binding Path= InstructionString}" ClipboardContentBinding="{x:Null}" Header="Instruction" Width="175" MinWidth="175"/>
+                <DataGridTextColumn Binding="{Binding Path= OpcodeHex}" ClipboardContentBinding="{x:Null}" Header="Opcode (H)" Width="80"  MinWidth="80"/>
+                <DataGridTextColumn Binding="{Binding Path= OpcodeFormatted}" ClipboardContentBinding="{x:Null}" Header="Opcode (B)" Width="*"/>
+            </DataGrid.Columns>
+                </DataGrid>
+        <DataGrid Name="RegGrid" Grid.Row="3" Grid.Column="0" AutoGenerateColumns="False" CanUserReorderColumns="False" 
+                          CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" ColumnHeaderHeight="30" ClipboardCopyMode="IncludeHeader" HeadersVisibility="Column">
+            <DataGrid.VerticalGridLinesBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+            </DataGrid.VerticalGridLinesBrush>
+            <DataGrid.HorizontalGridLinesBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+            </DataGrid.HorizontalGridLinesBrush>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path= Id}" ClipboardContentBinding="{x:Null}" Header="Address" MinWidth="120" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Path= HexValue}" ClipboardContentBinding="{x:Null}" Header="Value (HEX)" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid Name="MemGrid" Grid.Row="3" Grid.Column="2" AutoGenerateColumns="False" CanUserReorderColumns="False" 
+                          CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" ColumnHeaderHeight="30" ClipboardCopyMode="IncludeHeader" HeadersVisibility="Column">
+                    <DataGrid.VerticalGridLinesBrush>
+                        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+                    </DataGrid.VerticalGridLinesBrush>
+                    <DataGrid.HorizontalGridLinesBrush>
+                        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+                    </DataGrid.HorizontalGridLinesBrush>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path= Address}" ClipboardContentBinding="{x:Null}" Header="Address" MinWidth="120" Width="120" IsReadOnly="True"/>
+                        <DataGridTextColumn Binding="{Binding Path= HexValue}" ClipboardContentBinding="{x:Null}" Header="Value (HEX)" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+</Window>

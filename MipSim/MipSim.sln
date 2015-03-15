@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MipSim.IDE", "IDE\MipSim.IDE.csproj", "{EF04B13E-1C55-4966-B87E-35DEEBDD44CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MipSim.Core", "MipSim.Core\MipSim.Core.csproj", "{603CBED6-D724-4558-8633-2B48A58377A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF04B13E-1C55-4966-B87E-35DEEBDD44CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF04B13E-1C55-4966-B87E-35DEEBDD44CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF04B13E-1C55-4966-B87E-35DEEBDD44CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF04B13E-1C55-4966-B87E-35DEEBDD44CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603CBED6-D724-4558-8633-2B48A58377A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603CBED6-D724-4558-8633-2B48A58377A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603CBED6-D724-4558-8633-2B48A58377A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603CBED6-D724-4558-8633-2B48A58377A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

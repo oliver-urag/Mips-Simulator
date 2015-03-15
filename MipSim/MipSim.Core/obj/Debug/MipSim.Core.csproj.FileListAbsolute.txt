@@ -1,0 +1,14 @@
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\MipSim.Core\bin\Debug\MipSim.Core.dll
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\MipSim.Core\bin\Debug\MipSim.Core.pdb
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\MipSim.Core\obj\Debug\MipSim.Core.dll
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\MipSim.Core\obj\Debug\MipSim.Core.pdb
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\MipSim.Core\obj\Debug\MipSim.Core.csprojResolveAssemblyReference.cache
+H:\MipSim\MipSim.Core\bin\Debug\MipSim.Core.dll
+H:\MipSim\MipSim.Core\bin\Debug\MipSim.Core.pdb
+H:\MipSim\MipSim.Core\obj\Debug\MipSim.Core.csprojResolveAssemblyReference.cache
+H:\MipSim\MipSim.Core\obj\Debug\MipSim.Core.dll
+H:\MipSim\MipSim.Core\obj\Debug\MipSim.Core.pdb
+C:\Users\Oliver\Desktop\MipSim\MipSim.Core\bin\Debug\MipSim.Core.dll
+C:\Users\Oliver\Desktop\MipSim\MipSim.Core\bin\Debug\MipSim.Core.pdb
+C:\Users\Oliver\Desktop\MipSim\MipSim.Core\obj\Debug\MipSim.Core.dll
+C:\Users\Oliver\Desktop\MipSim\MipSim.Core\obj\Debug\MipSim.Core.pdb

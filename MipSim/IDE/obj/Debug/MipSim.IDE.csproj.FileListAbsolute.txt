@@ -1,0 +1,115 @@
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\MipSim.IDE.csprojResolveAssemblyReference.cache
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\AboutWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\ExecutionWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\HelpWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\MainWindow.baml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\AboutWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\ExecutionWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\HelpWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\MainWindow.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\App.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE_Content.g.cs
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE_MarkupCompile.cache
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.g.resources
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.Properties.Resources.resources
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\MipSim.IDE.csproj.GenerateResource.Cache
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.exe
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY.htm
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\themedata.thmx
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\colorschememapping.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\filelist.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image001.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image002.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image003.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image004.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image005.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image006.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image007.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image008.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image009.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image010.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image011.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image012.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image013.png
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\image014.jpg
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0022.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\item0024.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0023.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\Help\EAZY_files\props0025.xml
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\IDE.exe.config
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\IDE.exe
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\IDE.pdb
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\MipSim.Core.dll
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\bin\Debug\MipSim.Core.pdb
+D:\Oliver\School\CSC612M - ARCH\Project\EazyIDE\IDE\obj\Debug\IDE.pdb
+H:\MipSim\IDE\bin\Debug\IDE.exe.config
+H:\MipSim\IDE\obj\Debug\IDE.exe
+H:\MipSim\IDE\obj\Debug\IDE.pdb
+H:\MipSim\IDE\bin\Debug\Help\EAZY.htm
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\themedata.thmx
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\colorschememapping.xml
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\filelist.xml
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image001.png
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image002.jpg
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image003.png
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image004.jpg
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image005.png
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image006.jpg
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image007.png
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image008.jpg
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image009.png
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image010.jpg
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image011.png
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image012.jpg
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image013.png
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\image014.jpg
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\item0022.xml
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\item0024.xml
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\props0023.xml
+H:\MipSim\IDE\bin\Debug\Help\EAZY_files\props0025.xml
+H:\MipSim\IDE\bin\Debug\IDE.exe
+H:\MipSim\IDE\bin\Debug\IDE.pdb
+H:\MipSim\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+H:\MipSim\IDE\bin\Debug\MipSim.Core.dll
+H:\MipSim\IDE\bin\Debug\MipSim.Core.pdb
+H:\MipSim\IDE\obj\Debug\MipSim.IDE.csprojResolveAssemblyReference.cache
+H:\MipSim\IDE\obj\Debug\AboutWindow.baml
+H:\MipSim\IDE\obj\Debug\HelpWindow.baml
+H:\MipSim\IDE\obj\Debug\MainWindow.baml
+H:\MipSim\IDE\obj\Debug\AboutWindow.g.cs
+H:\MipSim\IDE\obj\Debug\HelpWindow.g.cs
+H:\MipSim\IDE\obj\Debug\MainWindow.g.cs
+H:\MipSim\IDE\obj\Debug\App.g.cs
+H:\MipSim\IDE\obj\Debug\IDE_Content.g.cs
+H:\MipSim\IDE\obj\Debug\IDE_MarkupCompile.cache
+H:\MipSim\IDE\obj\Debug\IDE.g.resources
+H:\MipSim\IDE\obj\Debug\IDE.Properties.Resources.resources
+H:\MipSim\IDE\obj\Debug\MipSim.IDE.csproj.GenerateResource.Cache
+H:\MipSim\IDE\obj\Debug\SimulationWindow.baml
+H:\MipSim\IDE\obj\Debug\SimulationWindow.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\bin\Debug\IDE.exe.config
+C:\Users\Oliver\Desktop\MipSim\IDE\bin\Debug\IDE.exe
+C:\Users\Oliver\Desktop\MipSim\IDE\bin\Debug\IDE.pdb
+C:\Users\Oliver\Desktop\MipSim\IDE\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Oliver\Desktop\MipSim\IDE\bin\Debug\MipSim.Core.dll
+C:\Users\Oliver\Desktop\MipSim\IDE\bin\Debug\MipSim.Core.pdb
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\MipSim.IDE.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\AboutWindow.baml
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\OpcodeGenerationErrorWindow.baml
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\MainWindow.baml
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\HelpWindow.baml
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\SimulationWindow.baml
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\AboutWindow.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\OpcodeGenerationErrorWindow.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\MainWindow.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\HelpWindow.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\SimulationWindow.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\XAML\App.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE_Content.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE_MarkupCompile.cache
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE.g.resources
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\MipSim.IDE.csproj.GenerateResource.Cache
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE.exe
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE.pdb
