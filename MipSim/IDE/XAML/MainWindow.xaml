@@ -1,8 +1,9 @@
 ﻿<Window x:Class="MipSim.IDE.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+        xmlns:validation="clr-namespace:MipSim.IDE"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MIPS Simulator - Editor" Background="AliceBlue" Width="700" Height="700" ResizeMode="CanMinimize">
+        Title="MIPS Simulator - Editor" Background="AliceBlue" Width="1000" Height="600" ResizeMode="CanMinimize">
     
     <DockPanel>
         <Menu Name="MenuMainWindow" DockPanel.Dock="Top" Height="28" FontWeight="SemiBold">
@@ -17,9 +18,9 @@
                 <MenuItem.Header>
                     <TextBlock Text="File" HorizontalAlignment="Right" VerticalAlignment="Center"/>
                 </MenuItem.Header>
-                <MenuItem Header="New"/>
-                <MenuItem Header="Open"/>
-                <MenuItem Header="Save"/>
+                <MenuItem Header="New" Click="MenuNew_Click"/>
+                <MenuItem Header="Open" Click="MenuOpen_Click"/>
+                <MenuItem Header="Save" Click="MenuSave_Click"/>
             </MenuItem>
             <MenuItem Height="28" Padding="7,3,7,3" Click="Run_Click">
                 <MenuItem.Header>
@@ -30,31 +31,33 @@
                 <MenuItem.Header>
                     <TextBlock Text="Help" HorizontalAlignment="Right" VerticalAlignment="Center"/>
                 </MenuItem.Header>
-                <MenuItem Header="Help"/>
-                <MenuItem Header="About"/>
+                <MenuItem Header="Help" Click="MenuHelp_Click"/>
+                <MenuItem Header="About" Click="MenuAbout_Click"/>
             </MenuItem>
         </Menu>
         <DockPanel IsManipulationEnabled="True">
             <Grid Margin="5">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="28px" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="28px" />
+                    <RowDefinition Height="35px" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="5"/>
-                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="180"/>
                 </Grid.ColumnDefinitions>
                 <!--labels-->
                 <Label Grid.Row="0" Grid.Column="0" Content="Code"      VerticalAlignment="Center" FontWeight="Bold"/>
-                <Label Grid.Row="0" Grid.Column="2" Content="Registers" VerticalAlignment="Center" FontWeight="Bold"/>
-                <Label Grid.Row="2" Grid.Column="2" Content="Memory"    VerticalAlignment="Center" FontWeight="Bold"/>
+                <Label Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Content="Registers" VerticalAlignment="Center" FontWeight="Bold"/>
+                <Label Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" Content="Memory"    VerticalAlignment="Center" FontWeight="Bold"/>
                 <!--Text Area -->    
                 <ContentControl Name="taCode" Grid.Row="1" Grid.Column="0" Grid.RowSpan="3" BorderThickness="1" BorderBrush="Black" Background="Black"/>
-                <!-- Registers -->    
-                <DataGrid Name="RegGrid" Grid.Row="1" Grid.Column="2" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" ColumnHeaderHeight="30" ClipboardCopyMode="IncludeHeader" HeadersVisibility="Column">
+                <!-- Registers -->
+                <DataGrid Name="RegGrid" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" ColumnHeaderHeight="30" ClipboardCopyMode="IncludeHeader" HeadersVisibility="Column">
                     <DataGrid.VerticalGridLinesBrush>
                         <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
                     </DataGrid.VerticalGridLinesBrush>
@@ -66,19 +69,37 @@
                         <DataGridTextColumn Binding="{Binding Path= HexValue}" ClipboardContentBinding="{x:Null}" Header="Value (HEX)" Width="*"/>
                     </DataGrid.Columns>
                     </DataGrid>
-                    <DataGrid Name="MemGrid" Grid.Row="3" Grid.Column="2" AutoGenerateColumns="False" CanUserReorderColumns="False" 
-                              CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" ColumnHeaderHeight="30" ClipboardCopyMode="IncludeHeader" HeadersVisibility="Column">
-                        <DataGrid.VerticalGridLinesBrush>
-                            <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
-                        </DataGrid.VerticalGridLinesBrush>
-                        <DataGrid.HorizontalGridLinesBrush>
-                            <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
-                        </DataGrid.HorizontalGridLinesBrush>
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Binding="{Binding Path= Address}" ClipboardContentBinding="{x:Null}" Header="Address" MinWidth="120" Width="120" IsReadOnly="True"/>
-                            <DataGridTextColumn Binding="{Binding Path= HexValue}" ClipboardContentBinding="{x:Null}" Header="Value (HEX)" Width="*"/>
-                        </DataGrid.Columns>
-                    </DataGrid>
+                <!-- Memory Goto-->
+                <TextBox Name="tbxGotoMem" Grid.Row="0" Grid.Column="6" Margin="0px 5px 0px 5px" MaxLength="4" TextChanged="tbxGotoMem_TextChanged"/>
+                <!--Memory-->
+                <DataGrid Name="MemGrid" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" AutoGenerateColumns="False" CanUserReorderColumns="False" 
+                          CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" ColumnHeaderHeight="30" 
+                          HeadersVisibility="Column" >
+                    <DataGrid.VerticalGridLinesBrush>
+                        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+                    </DataGrid.VerticalGridLinesBrush>
+                    <DataGrid.HorizontalGridLinesBrush>
+                        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+                    </DataGrid.HorizontalGridLinesBrush>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path= Address}" ClipboardContentBinding="{x:Null}" 
+                                            Header="Address" MinWidth="120" Width="120" IsReadOnly="True"/>
+                        <DataGridTextColumn ClipboardContentBinding="{x:Null}" Header="Value (HEX)" Width="*">
+                            <DataGridTextColumn.Binding>
+                                <Binding Path="HexValue" Mode="TwoWay" NotifyOnValidationError="True" ValidatesOnExceptions="True" FallbackValue="0">
+                                    <Binding.ValidationRules>
+                                        <validation:HexValidation/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </DataGridTextColumn.Binding>
+                            <DataGridTextColumn.EditingElementStyle>
+                                <Style TargetType="{x:Type TextBox}">
+                                    <Setter Property="MaxLength" Value="2"/>
+                                </Style>
+                            </DataGridTextColumn.EditingElementStyle>
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
                 </Grid>
             </DockPanel>
     </DockPanel>

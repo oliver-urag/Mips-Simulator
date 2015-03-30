@@ -27,7 +27,7 @@ namespace MipSim.Core
             set
             {
                 var hexVal = value;
-                if (Regex.IsMatch(hexVal, @"^[a-fA-F0-9]+$") && hexVal.Length == 16)
+                if (Utils.IsHex(hexVal))
                 {
                     _binString = Convert.ToString(Convert.ToInt64(hexVal, 16), 2);
                     while (_binString.Length < 64)

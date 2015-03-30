@@ -22,8 +22,6 @@ using ICSharpCode.AvalonEdit;
 
 using MipSim.Core;
 
-
-
 namespace MipSim.IDE
 {
     /// <summary>
@@ -34,23 +32,56 @@ namespace MipSim.IDE
 
         List<Register> Registers;
         List<Memory> MemoryAddresses;
+        String _currentFile;
+        String _titlePrefix;
+        bool _currentFileIsSaved = true;
 
         public MainWindow()
         {
             InitializeComponent();
             taCode.Content = GetNewTabEditor(String.Empty);
             InitializeRegistersAndMemory();
+            _titlePrefix = this.Title;
+            New();
         }
 
 
-        #region Ribbon
-        // File
-        private void RibbonButtonNew_Click(object sender, RoutedEventArgs e)
+        #region File Menu Event Handlers
+
+        private void MenuNew_Click(object sender, RoutedEventArgs e)
         {
+            if (!_currentFileIsSaved)
+            {
+                var answer = MessageBox.Show("You have unsaved Changes. Do you want to save your changes before closing this document?",
+                                             "Save File?", MessageBoxButton.YesNoCancel, MessageBoxImage.Information);
+                switch (answer)
+                {
+                    case MessageBoxResult.Yes: Save(); break;
+                    case MessageBoxResult.No: break;
+                    case MessageBoxResult.Cancel: return;
+                    default: return;
+                }
+            }
+
+            New();           
         }
 
-        private void RibbonButtonOpen_Click(object sender, RoutedEventArgs e)
+        private void MenuOpen_Click(object sender, RoutedEventArgs e)
         {
+            if (!_currentFileIsSaved)
+            {
+                var answer = MessageBox.Show("You have unsaved Changes. Do you want to save your changes before closing this document?",
+                                             "Save File?", MessageBoxButton.YesNoCancel, MessageBoxImage.Information);
+                switch (answer)
+                {
+                    case MessageBoxResult.Yes: Save(); break;
+                    case MessageBoxResult.No: break;
+                    case MessageBoxResult.Cancel: return;
+                    default: return;
+                }
+            }
+
+
             var openDialog = new Microsoft.Win32.OpenFileDialog();
             openDialog.DefaultExt = ".txt";
             openDialog.Filter = "Text documents (.txt)|*.txt";
@@ -59,49 +90,27 @@ namespace MipSim.IDE
             {
                 var tabname = openDialog.SafeFileName;
                 var filename = openDialog.FileName;
+                Open(filename, openDialog.OpenFile()); 
             }
         }
 
-        private void RibbonButtonSave_Click(object sender, RoutedEventArgs e)
+        private void MenuSave_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                var fileText = "";
-                var fileName = "";
-
-                if (fileName == String.Empty)
-                {
-                    var saveDialog = new Microsoft.Win32.SaveFileDialog();
-                    saveDialog.DefaultExt = ".txt";
-                    saveDialog.Filter = "Text documents (.txt)|*.txt";
-                    saveDialog.ShowDialog();
-                    var fileStream = File.Create(saveDialog.FileName);
-                    var fileByteStream = Encoding.ASCII.GetBytes(fileText);
-                    var fileByteCount = Encoding.ASCII.GetByteCount(fileText);
-                    fileStream.Write(fileByteStream, 0, fileByteCount);
-                    fileStream.Close();
-                }
-                else if (File.Exists(fileName))
-                {
-                    var fileStream = File.Open(fileName, FileMode.Truncate);
-                    var fileByteStream = Encoding.ASCII.GetBytes(fileText);
-                    var fileByteCount = Encoding.ASCII.GetByteCount(fileText);
-                    fileStream.Write(fileByteStream, 0, fileByteCount);
-                    fileStream.Close();
-                }
-                else
-                {
-                    MessageBox.Show("File does not exist. It might have been deleted", "File Not Found", MessageBoxButton.OK, MessageBoxImage.Error);
-
-                }
-
-                MessageBox.Show("File Successfully saved", "Save Success", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("An error occured while trying to save the file", "Save Failed", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
+            Save();
         }
+
+        #endregion File Menu Event Handlers
+
+        #region Text Editor Event Handlers
+
+        private void te_TextChanged(object sender, EventArgs e)
+        {
+            _currentFileIsSaved = false;
+        }
+
+        #endregion Text Editor Event Handlers
+
+        #region Help Event Handlers
 
         private void Run_Click(object sender, RoutedEventArgs e)
         {
@@ -122,32 +131,28 @@ namespace MipSim.IDE
            
         }
 
-        private void RibbonButtonRun_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RibbonButtonHelp_Click(object sender, RoutedEventArgs e)
+        private void MenuHelp_Click(object sender, RoutedEventArgs e)
         {
             var help = new HelpWindow();
             help.Show();
         }
 
-        private void RibbonButtonAbout_Click(object sender, RoutedEventArgs e)
+        private void MenuAbout_Click(object sender, RoutedEventArgs e)
         {
             var about = new AboutWindow();
             about.Show();
         }
 
-        #endregion
+        #endregion Help Event Handlers
 
         #region Helper Methods
-     
-        private TextEditor GetNewTabEditor(string content)
+
+        private TextEditor GetNewTabEditor(String content)
         {
             TextEditor te = new TextEditor();
   
             te.ShowLineNumbers = true;
+            te.TextChanged += te_TextChanged;
             te.TextArea.BorderBrush = RegGrid.BorderBrush;
             te.TextArea.BorderThickness = RegGrid.BorderThickness;
 
@@ -156,6 +161,110 @@ namespace MipSim.IDE
             te.Text = content;
             te.SyntaxHighlighting = new MipsimHighlightingDefinition();
             return te;
+        }
+
+        private String GetFilePath(String directory, String fileName)
+        {
+            return String.Format("{0}{1}", directory, fileName);
+        }
+
+        private void New()
+        {
+            var path = System.IO.Path.GetDirectoryName(_currentFile);
+            if (path == "\\")
+            {
+                path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + path;
+            }
+            var ctr = 0;
+            do
+            {
+                var file = "Untitled.txt";
+                if (ctr > 0)
+                {
+                    file = String.Format("Untitled({0}).txt", ctr);
+                }
+                var tpath = path + "\\" + file;
+                if (!File.Exists(tpath))
+                {
+                    _currentFile = tpath;
+                    this.Title = String.Format("{0} [{1}]", _titlePrefix, System.IO.Path.GetFileName(_currentFile));
+                    break;
+                }
+                ctr++;
+            } while (true);
+
+            var te = (TextEditor)taCode.Content;
+            te.Text = String.Empty;
+            _currentFileIsSaved = true;
+        }
+
+        private void Open(String fileName = "", Stream file = null)
+        {
+            try
+            {
+                string content = String.Empty;
+                if (file != null)
+                {
+                    var reader = new StreamReader(file);
+                    content = reader.ReadToEnd();
+                    reader.Close();
+                }
+                var te = (TextEditor)taCode.Content;
+                te.Text = content;
+                _currentFile = fileName;
+                _currentFileIsSaved = true;
+                this.Title = String.Format("{0} [{1}]", _titlePrefix, System.IO.Path.GetFileName(fileName));
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured while trying to open the file", "Open Failed", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+        }
+
+        private void Save()
+        {
+            try
+            {
+                var tempFile = _currentFile;
+                if (!(File.Exists(tempFile)))
+                {
+                    var saveDialog = new Microsoft.Win32.SaveFileDialog();
+                    if(System.IO.Path.GetDirectoryName(tempFile) == "\\")
+                    {
+                        saveDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                    }
+                    saveDialog.FileName = System.IO.Path.GetFileNameWithoutExtension(tempFile);
+                    saveDialog.DefaultExt = ".txt";
+                    saveDialog.Filter = "Text documents (.txt)|*.txt";
+                    if (saveDialog.ShowDialog() == true)
+                    {
+                        SaveUtil(saveDialog.FileName);
+                    }                   
+                }
+                else
+                {
+                    SaveUtil(tempFile);
+                }
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occured while trying to save the file", "Save Failed", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void SaveUtil(String fileName)
+        {
+            var fileTextEditor = (TextEditor)taCode.Content;
+            var fileStream = File.Create(fileName);
+            var fileByteStream = Encoding.ASCII.GetBytes(fileTextEditor.Text);
+            var fileByteCount = Encoding.ASCII.GetByteCount(fileTextEditor.Text);
+            fileStream.Write(fileByteStream, 0, fileByteCount);
+            fileStream.Close();
+            MessageBox.Show("File Successfully saved", "Save Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            _currentFile = fileName;
+            _currentFileIsSaved = true;
         }
 
         #endregion
@@ -181,5 +290,26 @@ namespace MipSim.IDE
             RegGrid.ItemsSource = Registers;
             MemGrid.ItemsSource = MemoryAddresses;
         }
+
+        private void tbxGotoMem_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var currentText = tbxGotoMem.Text.ToUpper();
+            var index = MemoryAddresses.FindIndex(m => m.Address.StartsWith(currentText));
+            if(index != -1)
+            {
+
+                MemGrid.ScrollIntoView(MemGrid.Items[MemGrid.Items.Count - 1]);
+                MemGrid.UpdateLayout();
+                MemGrid.ScrollIntoView(MemGrid.Items[index]);
+                MemGrid.SelectedItem = MemGrid.Items[index];
+            }
+        }
+
+        private void MemGrid_TargetUpdated(object sender, DataTransferEventArgs e)
+        {
+            var x = e;
+            var s = sender;
+        }
+
     }
 }

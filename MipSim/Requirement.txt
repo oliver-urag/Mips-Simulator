@@ -1,0 +1,5 @@
+pipeline freeze
+check reserved words
+check register
+goto memory
+auto padding

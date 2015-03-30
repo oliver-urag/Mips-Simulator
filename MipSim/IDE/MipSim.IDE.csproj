@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Objects\Validation.cs" />
     <Compile Include="XAML\AboutWindow.xaml.cs">
       <DependentUpon>AboutWindow.xaml</DependentUpon>
     </Compile>
@@ -68,12 +69,10 @@
     <Compile Include="XAML\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Objects\MemoryTemplate.cs" />
     <Compile Include="Objects\EazyHighlightingDefinition.cs" />
     <Compile Include="XAML\HelpWindow.xaml.cs">
       <DependentUpon>HelpWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Objects\RegisterTemplate.cs" />
     <Page Include="XAML\AboutWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

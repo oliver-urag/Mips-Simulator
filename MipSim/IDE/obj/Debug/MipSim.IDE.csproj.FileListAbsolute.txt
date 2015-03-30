@@ -113,3 +113,5 @@ C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE.Properties.Resources.resources
 C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\MipSim.IDE.csproj.GenerateResource.Cache
 C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE.exe
 C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE.pdb
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Oliver\Desktop\MipSim\IDE\obj\Debug\IDE_MarkupCompile.lref

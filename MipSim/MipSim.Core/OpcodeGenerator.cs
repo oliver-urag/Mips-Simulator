@@ -42,9 +42,9 @@ namespace MipSim.Core
                 {
                     label = labelSplit[0].Trim();
                     instructionString = labelSplit[1].Trim();
-                    if (!IsAlphaNumeric(label))
+                    if (!IsAlphaNumeric(label) || IsReserved(label))
                     {
-                        //add error.
+                        errors.Add(ctr + 1, "Invalid label", codeString);
                         ctr++;
                         continue;
                     }
@@ -89,11 +89,24 @@ namespace MipSim.Core
             return instructionSet;
         }
 
-        static private bool IsAlphaNumeric(string s)
+        static private bool IsAlphaNumeric(String s)
         {
             return Regex.IsMatch(s, @"^[a-zA-Z0-9]+$");
         }
 
+        static private bool IsReserved(String s)
+        {
+            String[] commands = { "DADDU", "DMULT", "OR", "DSLLV", "SLT", "BNE", "LW", "LWU", "SW", "DADDIU", "ANDI", "J" };
+            String[] regIds = {"R0","R1","R2","R3","R4", "R5","R6","R7","R8","R9","R10","R11","R12","R13","R14", "R15","R16","R17","R18","R9",
+                               "R20","R21","R22","R23","R24", "R25","R26","R27","R28","R29","R30","R31"};
+
+            if(commands.Any(c=> c == s.ToUpper()) || regIds.Any(r=>r == s.ToUpper()))
+            {
+                return true;
+            }
+
+            return false;
+        }
 
 
     }

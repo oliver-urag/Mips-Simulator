@@ -27,13 +27,8 @@ namespace MipSim.Core
             }
         }
 
-        public String OpcodeFormatted
-        {
-            get
-            {
-                return Opcode;
-            }
-        }
+        public String OpcodeFormatted { get; set; }
+
         public String AddressHex
         {
             get
@@ -54,6 +49,11 @@ namespace MipSim.Core
             InstructionString = instructionString;
             Label = label;
             Opcode = "00000000000000000000000000000000";
+        }
+
+        public bool IsBranch()
+        {
+            return Command == "BNE" || Command == "J";
         }
     }
 }

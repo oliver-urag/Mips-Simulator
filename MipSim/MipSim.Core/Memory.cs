@@ -10,10 +10,8 @@ namespace MipSim.Core
     public class Memory
     {
         String _binString = "00000000";
-        String _hexAddress = "0000";
 
         public String Address { get; set; }
-
 
         public String HexValue 
         {
@@ -29,7 +27,7 @@ namespace MipSim.Core
             set
             {
                 var hexVal = value;
-                if (Regex.IsMatch(hexVal, @"^[a-fA-F0-9]+$") && hexVal.Length == 2)
+                if (Utils.IsHex(hexVal))
                 {
                     _binString = Convert.ToString(Convert.ToInt64(hexVal, 16), 2);
                     while (_binString.Length < 8)

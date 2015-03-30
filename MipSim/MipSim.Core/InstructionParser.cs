@@ -59,7 +59,8 @@ namespace MipSim.Core
 
             switch (command)
             {
-                case "J": 
+                case "J":
+                    instruction.Command = "J";
                     labeledInstruction = instructionSet.Where(i => i.Label != String.Empty && i.Label == parameter).FirstOrDefault();
                     if (labeledInstruction == null)
                     {
@@ -69,8 +70,10 @@ namespace MipSim.Core
                     label = Bin(labeledInstruction.Address, 26);
                     instruction.Opcode = String.Concat(opcode, label);
                     newInstructionString = String.Format("{0} {1}", command, parameter);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", parameter);
                     break;
-                case "DADDU": 
+                case "DADDU":
+                    instruction.Command = "DADDU";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 3)
                     {
@@ -84,9 +87,11 @@ namespace MipSim.Core
                     RT = Bin(ExtractRegister(parameters[2], out sRT), 5);
                     RD = Bin(ExtractRegister(parameters[0], out sRD), 5);
                     instruction.Opcode = String.Concat(opcode, RS, RT, RD, SHF, FUNC);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", RD, " ", SHF, " ", FUNC);
                     newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, sRT);
                     break;
-                case "DMULT": 
+                case "DMULT":
+                    instruction.Command = "DMULT";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 2)
                     {
@@ -100,9 +105,11 @@ namespace MipSim.Core
                     RT = Bin(ExtractRegister(parameters[1], out sRT), 5);
                     RD = Bin(0,5);
                     instruction.Opcode = String.Concat(opcode, RS, RT, RD, SHF, FUNC);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", RD, " ", SHF, " ", FUNC);
                     newInstructionString = String.Format("{0} {1}, {2}", command, sRS, sRT);
                     break;
                 case "OR":
+                    instruction.Command = "OR";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 3)
                     {
@@ -116,9 +123,11 @@ namespace MipSim.Core
                     RT = Bin(ExtractRegister(parameters[2], out sRT), 5);
                     RD = Bin(ExtractRegister(parameters[0], out sRD), 5);
                     instruction.Opcode = String.Concat(opcode, RS, RT, RD, SHF, FUNC);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", RD, " ", SHF, " ", FUNC);
                     newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, sRT);
                     break;
                 case "DSLLV":
+                    instruction.Command = "DSLLV";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 3)
                     {
@@ -132,9 +141,11 @@ namespace MipSim.Core
                     RT = Bin(ExtractRegister(parameters[2], out sRT), 5);
                     RD = Bin(ExtractRegister(parameters[0], out sRD), 5);
                     instruction.Opcode = String.Concat(opcode, RS, RT, RD, SHF, FUNC);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", RD, " ", SHF, " ", FUNC);
                     newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, sRT);
                     break;
                 case "SLT":
+                    instruction.Command = "SLT";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 3)
                     {
@@ -148,9 +159,11 @@ namespace MipSim.Core
                     RT = Bin(ExtractRegister(parameters[2], out sRT), 5);
                     RD = Bin(ExtractRegister(parameters[0], out sRD), 5);
                     instruction.Opcode = String.Concat(opcode, RS, RT, RD, SHF, FUNC);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", RD, " ", SHF, " ", FUNC);
                     newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, sRT);
                     break;
                 case "BNE":
+                    instruction.Command = "BNE";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 3)
                     {
@@ -164,16 +177,18 @@ namespace MipSim.Core
                     
                     if (labeledInstruction == null)
                     {
-                        throw new Exception(String.Format("Label not found: {0}", parameters[3]));
+                        throw new Exception(String.Format("Label not found: {0}", parameters[2]));
                     }
 
                     IMM = Bin(labeledInstruction.Address, 16);
 
                     instruction.Opcode = String.Concat(opcode, RS, RT, IMM);
-                    newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, parameters[3]);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", IMM);
+                    newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, parameters[2]);
 
                     break;
                 case "LW":
+                    instruction.Command = "LW";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 2)
                     {
@@ -187,10 +202,12 @@ namespace MipSim.Core
                     RS = Bin(ExtractRegister(offsetItems[1], out sRS), 5);
 
                     instruction.Opcode = String.Concat(opcode, RS, RD, IMM);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RD, " ", IMM);
                     newInstructionString = String.Format("{0} {1}, {2}({3})", command, sRD, offsetItems[0], sRS);
 
                     break;
                 case "LWU":
+                    instruction.Command = "LWU";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 2)
                     {
@@ -204,9 +221,11 @@ namespace MipSim.Core
                     RS = Bin(ExtractRegister(offsetItems[1], out sRS), 5);      
 
                     instruction.Opcode = String.Concat(opcode, RS, RD, IMM);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RD, " ", IMM);
                     newInstructionString = String.Format("{0} {1}, {2}({3})", command, sRD, offsetItems[0], sRS);
                     break;
                 case "SW":
+                    instruction.Command = "SW";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 2)
                     {
@@ -220,9 +239,11 @@ namespace MipSim.Core
                     RS = Bin(ExtractRegister(offsetItems[1], out sRS), 5);   
 
                     instruction.Opcode = String.Concat(opcode, RS, RT, IMM);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", IMM);
                     newInstructionString = String.Format("{0} {1}, {2}({3})", command, sRT, offsetItems[0], sRS);
                     break;
                 case "DADDIU":
+                    instruction.Command = "DADDIU";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 3)
                     {
@@ -233,12 +254,13 @@ namespace MipSim.Core
                     RD = Bin(ExtractRegister(parameters[0], out sRD), 5);
                     IMM = Bin(Convert.ToInt32(ExtractImmediate(parameters[2], out imm), 16), 16);
                     RS = Bin(ExtractRegister(parameters[1], out sRS), 5);
-                    newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, imm);
-
 
                     instruction.Opcode = String.Concat(opcode, RS, RD, IMM);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RD, " ", IMM);
+                    newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, imm);
                     break;
                 case "ANDI":
+                    instruction.Command = "ANDI";
                     parameters = SplitByComma(parameter);
                     if (parameters.Count() != 3)
                     {
@@ -252,6 +274,7 @@ namespace MipSim.Core
 
 
                     instruction.Opcode = String.Concat(opcode, RS, RD, IMM);
+                    instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RD, " ", IMM);
                     newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, imm);
                     break;
                 default: throw new Exception(String.Format("Unknown Instruction : {0}", command));
