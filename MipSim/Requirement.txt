@@ -1,5 +1,10 @@
 pipeline freeze
+no forwarding
 check reserved words
-check register
-goto memory
-auto padding
+goto memory(done)
+auto padding (done)
+Register Value Checking (done)
+ANDI - 0 extend
+LWU - 0 extend
+DMULT - HI LO
+R0 is valid destination, always 0;

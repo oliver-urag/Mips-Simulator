@@ -29,7 +29,7 @@ namespace MipSim.Core
                 hex = "0" + hex;
             }
 
-            return hex;
+            return hex.ToUpper();
         }
 
         public static long ConvertBinToInt(string bin)
@@ -37,7 +37,7 @@ namespace MipSim.Core
             return Convert.ToInt32(bin, 2);
         }
 
-        public static string ConvertHexToBin(string bin, int digits)
+        public static string ConvertBinToHex(string bin, int digits)
         {
             var conversionOut = Convert.ToString(Convert.ToInt64(bin, 2), 16).ToUpper();
             while (conversionOut.Length < 16)
@@ -45,6 +45,26 @@ namespace MipSim.Core
                 conversionOut = "0" + conversionOut;
             }
             return conversionOut;
+        }
+
+        public static string ConvertHexToBin(string hex, int digits)
+        {
+            var conversionOut = Convert.ToString(Convert.ToInt64(hex, 16), 2).ToUpper();
+            while (conversionOut.Length < 16)
+            {
+                conversionOut = "0" + conversionOut;
+            }
+            return conversionOut;
+        }
+
+        public static string ConvertIntToHex(int num, int digits)
+        {
+            var hex = Convert.ToString(num, 16);
+            while (hex.Length < digits)
+            {
+                hex = "0" + hex;
+            }
+            return hex.ToUpper();
         }
     }
 }

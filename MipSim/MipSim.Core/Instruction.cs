@@ -13,7 +13,6 @@ namespace MipSim.Core
         public String Label { get;  set; }
         public String Command { get; set; }
         public String Opcode { get; set; }
-        
         public String OpcodeHex
         {
             get
@@ -33,13 +32,7 @@ namespace MipSim.Core
         {
             get
             {
-                var hex = Convert.ToString(Address, 16);
-                while (hex.Length < 4)
-                {
-                    hex = "0" + hex;
-                }
-
-                return hex;
+                return Utils.ConvertIntToHex(Address, 4);
             }
         }
 
