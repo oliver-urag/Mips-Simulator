@@ -24,7 +24,7 @@
             </MenuItem>
             <MenuItem Height="28" Padding="7,3,7,3" Click="Run_Click">
                 <MenuItem.Header>
-                    <TextBlock Text="Run" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="Execute" HorizontalAlignment="Right" VerticalAlignment="Center"/>
                 </MenuItem.Header>
             </MenuItem>
             <MenuItem Height="28" Padding="7,3,7,3">

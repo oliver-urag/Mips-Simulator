@@ -18,6 +18,7 @@ namespace MipSim.Core
         public string ID_EX_B { get; set; }
         public string ID_EX_IMM { get; set; }
         public string EX_MEM_IR { get; set; }
+        public string EX_MEM_B { get; set; }
         public string EX_MEM_ALUOutput { get; set; }
         public int? EX_MEM_COND { get; set; }
         public string MEM_WB_IR { get; set; }

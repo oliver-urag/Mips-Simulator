@@ -34,19 +34,35 @@ namespace MipSim.IDE
         List<Instruction> _instructions;
         List<Register> _registers;
         List<Memory> _memoryAddresses;
+        
+        List<Register> _registersCopy;
+        List<Memory> _memoryAddressesCopy;
+
         List<ClockCycle> _clockcycles;
         DataTable _pipelinemap;
         CPU cpu;
         int currentClockCycle = 0;
+        bool executionComplete = false;
 
         public SimulationWindow(List<Instruction> instructions, List<Register> registers, List<Memory> memoryAddresses)
         {
             InitializeComponent();
+
+            // Copy Base Source
             _instructions = instructions;
-            _registers = registers;
-            _memoryAddresses = memoryAddresses;
+            _registersCopy = registers;
+            _memoryAddressesCopy = memoryAddresses;
+
+            // Initialize Working Source
             _clockcycles = new List<ClockCycle>();
-            cpu = new CPU(instructions, registers, memoryAddresses);
+            _registers = new List<Register>();
+            _memoryAddresses = new List<Memory>();
+            CopyToWorkingComponents();
+
+            // Create CPU
+            cpu = new CPU(_instructions, _registers, _memoryAddresses);
+
+            // BindParameters
             BindParameters();
         }
 
@@ -57,6 +73,9 @@ namespace MipSim.IDE
             RegGrid.ItemsSource = _registers;
             MemGrid.ItemsSource = _memoryAddresses;
             ClockcycleGrid.ItemsSource = _clockcycles;
+            RegGrid.Items.Refresh();
+            MemGrid.Items.Refresh();
+            ClockcycleGrid.Items.Refresh();
             InitializePipelineMap();
         }
 
@@ -71,23 +90,34 @@ namespace MipSim.IDE
                 _clockcycles.Add(clockCycle);
                 ClockcycleGrid.Items.Refresh();
                 RegGrid.Items.Refresh();
+                MemGrid.Items.Refresh();
+
+                if (!cpu.Pipeline.Any())
+                {
+                    executionComplete = true;
+                    DisableControls();
+                    return;
+                }
+
                 RefreshPipelineMap(cpu.Pipeline, currentClockCycle);
             }
-            catch(ExecutionEndException)
+            catch(Exception e)
             {
-                MessageBox.Show("End of Execution");
+                MessageBox.Show(e.Message, "Error Encountered", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private void InitializePipelineMap()
         {
             _pipelinemap = new DataTable();
+            _pipelinemap.Columns.Add("Address");
+            _pipelinemap.Columns.Add("Label");
             _pipelinemap.Columns.Add("Instruction");
             _pipelinemap.Columns.Add("Opcode");
 
             foreach (var inst in _instructions)
             {
-                _pipelinemap.Rows.Add(inst.InstructionString, inst.OpcodeHex);
+                _pipelinemap.Rows.Add(inst.AddressHex, inst.Label, inst.InstructionString, inst.OpcodeHex);
             }
 
             PipelineGrid.ItemsSource = _pipelinemap.DefaultView;
@@ -100,7 +130,7 @@ namespace MipSim.IDE
 
             for(int i = 0; i < _pipelinemap.Rows.Count; i++)
             {
-                var key = _pipelinemap.Rows[i]["Opcode"].ToString();
+                var key = _pipelinemap.Rows[i]["Address"].ToString();
                 var item = pipeline.Where(p => p.Key == key).FirstOrDefault();
                 if(!item.Equals(default(KeyValuePair<String,String>)))
                 {
@@ -111,6 +141,40 @@ namespace MipSim.IDE
             PipelineGrid.Items.Refresh();
             PipelineGrid.ItemsSource = _pipelinemap.DefaultView;
             PipelineGrid.Items.Refresh();
+        }
+
+        private void DisableControls()
+        {
+            menuRun.IsEnabled = false;
+            menuStep.IsEnabled = false;
+        }
+
+        private void CopyToWorkingComponents()
+        {
+            _registers.Clear();
+            foreach (var register in _registersCopy)
+            {
+                var newRegister = new Register(register);
+                _registers.Add(newRegister);
+            }
+
+            _memoryAddresses.Clear();
+            foreach (var memoryBlock in _memoryAddressesCopy)
+            {
+                var newMemoryBlock = new Memory(memoryBlock);
+                _memoryAddresses.Add(newMemoryBlock);
+            }
+
+        }
+
+        private void ResetExecutionParameters()
+        {
+            _clockcycles.Clear();
+            currentClockCycle = 0;
+            executionComplete = false;
+            CopyToWorkingComponents();
+            cpu = new CPU(_instructions, _registers, _memoryAddresses);
+            BindParameters();
         }
 
         #region Event Handlers
@@ -131,14 +195,39 @@ namespace MipSim.IDE
 
         private void menuStep_Click(object sender, RoutedEventArgs e)
         {
-            ExecuteClockCycle();
+            if (!executionComplete)
+            {
+                ExecuteClockCycle();
+            }
+
+            if (executionComplete)
+            {               
+                MessageBox.Show("Execution Complete!", "Mips Simulator - Information", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void menuRun_Click(object sender, RoutedEventArgs e)
+        {
+            while (!executionComplete)
+            {
+                ExecuteClockCycle();
+            }
+
+            MessageBox.Show("Execution Complete!", "Mips Simulator - Information", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void menuReset_Click(object sender, RoutedEventArgs e)
+        {
+            ResetExecutionParameters();
+            menuRun.IsEnabled = true;
+            menuStep.IsEnabled = true;
         }
 
         private void PipelineGrid_AutoGeneratedColumns(object sender, EventArgs e)
         {
             foreach (var dataGridColumn in PipelineGrid.Columns)
             {
-                if (dataGridColumn.DisplayIndex > 1)
+                if (dataGridColumn.DisplayIndex > 2)
                 {
                     var textColumn = dataGridColumn as DataGridTextColumn;
                     if (textColumn == null) continue;
@@ -149,6 +238,10 @@ namespace MipSim.IDE
         }
 
         #endregion Event Handlers
+
+       
+
+        
 
       
 

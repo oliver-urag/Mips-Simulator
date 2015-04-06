@@ -110,14 +110,19 @@ namespace MipSim.IDE
 
         #endregion Text Editor Event Handlers
 
-        #region Help Event Handlers
-
         private void Run_Click(object sender, RoutedEventArgs e)
         {
-            TextEditor textEditor = (TextEditor) taCode.Content;
+            TextEditor textEditor = (TextEditor)taCode.Content;
             try
             {
                 var instructions = Opcode.Generate(textEditor.Text);
+                
+                if (instructions.Count == 0)
+                {
+                    MessageBox.Show("No Code to Execute", "Mips Simulator - Editor", MessageBoxButton.OK, MessageBoxImage.Stop);
+                    return;
+                }
+
                 var sim = new SimulationWindow(instructions, Registers, MemoryAddresses);
                 sim.Show();
             }
@@ -128,8 +133,10 @@ namespace MipSim.IDE
                 return;
             }
 
-           
+
         }
+
+        #region Help Event Handlers
 
         private void MenuHelp_Click(object sender, RoutedEventArgs e)
         {

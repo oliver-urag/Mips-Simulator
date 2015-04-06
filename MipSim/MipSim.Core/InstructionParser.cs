@@ -174,17 +174,18 @@ namespace MipSim.Core
                     RS = Bin(ExtractRegister(parameters[0], out sRS), 5);
                     RT = Bin(ExtractRegister(parameters[1], out sRT), 5);
                     labeledInstruction = instructionSet.Where(i => i.Label != String.Empty && i.Label == parameters[2]).FirstOrDefault();
-                    
+
+                    var offset = (labeledInstruction.Address / 4 - instruction.Address / 4) - 1;
                     if (labeledInstruction == null)
                     {
                         throw new Exception(String.Format("Label not found: {0}", parameters[2]));
                     }
 
-                    IMM = Bin(labeledInstruction.Address, 16);
+                    IMM = Bin(offset, 16);
 
                     instruction.Opcode = String.Concat(opcode, RS, RT, IMM);
                     instruction.OpcodeFormatted = String.Concat(opcode, " ", RS, " ", RT, " ", IMM);
-                    newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRD, sRS, parameters[2]);
+                    newInstructionString = String.Format("{0} {1}, {2}, {3}", command, sRT, sRS, parameters[2]);
 
                     break;
                 case "LW":

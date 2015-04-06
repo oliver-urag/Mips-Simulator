@@ -52,7 +52,7 @@ namespace MipSim.Core
             set
             {
                 var tempBinString = value;
-                if (Regex.IsMatch(tempBinString, @"^[0-1]+$") && tempBinString.Length == 64)
+                if (Regex.IsMatch(tempBinString, @"^[0-1]+$") && tempBinString.Length == 8)
                 {
                     _binString = tempBinString;
                 }
@@ -71,6 +71,12 @@ namespace MipSim.Core
                 hexString = "0" + hexString;
             }
             Address = hexString;
+        }
+
+        public Memory(Memory source)
+        {
+            Address = source.Address;
+            BinValue = source.BinValue;
         }
     }
 }

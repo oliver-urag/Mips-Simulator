@@ -22,7 +22,7 @@ namespace MipSim.IDE
         public HelpWindow()
         {
             InitializeComponent();
-            var path = System.IO.Path.GetFullPath(@"Help\EAZY.htm");
+            var path = System.IO.Path.GetFullPath(@"Help\MipsSimulator.htm");
             Browser.Navigate(path);
         }
     }

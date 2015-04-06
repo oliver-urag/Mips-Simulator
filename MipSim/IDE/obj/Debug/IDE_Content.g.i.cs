@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("help/mipssimulator.htm")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("dll/icsharpcode.avalonedit.dll")]
 
 

@@ -67,5 +67,11 @@ namespace MipSim.Core
         {
             Id = id;
         }
+
+        public Register(Register source)
+        {
+            Id = source.Id;
+            BinValue = source.BinValue;
+        }
     }
 }

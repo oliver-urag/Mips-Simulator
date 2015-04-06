@@ -13,3 +13,8 @@ C:\Users\Oliver\Desktop\MipSim\MipSim.Core\bin\Debug\MipSim.Core.pdb
 C:\Users\Oliver\Desktop\MipSim\MipSim.Core\obj\Debug\MipSim.Core.dll
 C:\Users\Oliver\Desktop\MipSim\MipSim.Core\obj\Debug\MipSim.Core.pdb
 C:\Users\Oliver\Desktop\MipSim\MipSim.Core\obj\Debug\MipSim.Core.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\Desktop\MipSim2\MipSim.Core\bin\Debug\MipSim.Core.dll
+C:\Users\Oliver\Desktop\MipSim2\MipSim.Core\bin\Debug\MipSim.Core.pdb
+C:\Users\Oliver\Desktop\MipSim2\MipSim.Core\obj\Debug\MipSim.Core.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\Desktop\MipSim2\MipSim.Core\obj\Debug\MipSim.Core.dll
+C:\Users\Oliver\Desktop\MipSim2\MipSim.Core\obj\Debug\MipSim.Core.pdb
